@@ -6,7 +6,7 @@ class cls_Html {
      * @return string Etiqueta script
      */
     public function html_js_header(string $script_path): string {
-        return "<script src='{$script_path}'></script>\n";
+        return "<script defer src='{$script_path}'></script>\n";
     }
     
     /**
@@ -68,5 +68,7 @@ class cls_Html {
     public function html_input_button(string $type, string $name, string $id, string $class, string $value, string $onclick, string $attributes): string {
         return "<button type='{$type}' name='{$name}' id='{$id}' class='{$class}' {$onclick} {$attributes}>{$value}</button>\n";
     }
+
+
 }
 ?>

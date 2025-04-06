@@ -2,7 +2,7 @@
 /* Archivo controlador que contiene los llamados a las acciones de la vista
    (ADD,EDIT,DELETE,SEARCH) */
   
-require_once($_SERVER["DOCUMENT_ROOT"] . "/lab-php-mywall/global.php");
+require_once($_SERVER["DOCUMENT_ROOT"] . "/lap-php-mywall/global.php");
 require_once(__CLS_PATH . "cls_wall.php");
 
 class ctr_Wall {

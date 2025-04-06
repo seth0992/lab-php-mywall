@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER["DOCUMENT_ROOT"] . "/lab-php-mywall/global.php");
+require_once($_SERVER["DOCUMENT_ROOT"] . "/lap-php-mywall/global.php");
 require_once(__CLS_PATH . "cls_html.php");
 require(__CTR_PATH . "ctr_wall.php"); 
 
@@ -12,7 +12,7 @@ if (isset($_POST['btn_save'])) {
     $post_successful = $ctr_Wall->btn_save_click();
     if ($post_successful) {
         // Redirigir para evitar reenvío del formulario y para añadir parámetro para scroll
-        header('Location: ' . __SITE_PATH . '?posted=true');
+        header('Location: ' . __SITE_PATH__ . '?posted=true');
         exit;
     }
 }
@@ -81,3 +81,5 @@ if (isset($_POST['btn_save'])) {
     document.getElementById('main_panel').scrollTop = document.getElementById('main_panel').scrollHeight;
 </script>
 <?php endif; ?>
+
+
