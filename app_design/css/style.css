@@ -1,0 +1,140 @@
+﻿body{
+	margin 0 auto;
+	font-family: Arial;
+	font-size: 11px;
+	background: url('http://subtlepatterns.com/patterns/low_contrast_linen.png');
+}
+
+a, img{
+  outline: none; border: none;
+}
+
+#post_box{
+	position: relative;
+	width: 750px;
+	margin: auto;
+	height: 100px;
+	margin-bottom: 50px;
+	top: 10px; 
+}
+
+#main_box{
+	position: relative;
+	width: 800px;
+	border: 1px solid #CCC;
+	margin: auto;
+	height: 650px;
+	background-color: #4E5C6A;
+}
+
+#main_panel{
+	position: relative;
+	width: 750px;
+	border: 1px solid #CCC;
+	margin: auto;
+	height: 460px;
+	background: #EEE;
+	overflow: auto;
+}
+
+.textarea{
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	width: 750px;
+	height: 100px;
+}
+
+.post_block{
+    position: relative;
+	width: 95%;
+	margin: 3px;
+	border-radius: 8px;
+	background: #333;
+	height: auto;
+	color: #EEE;
+	border-top: 4px solid #DE6E20;
+}
+
+.post_block:hover{
+	background: #444;
+}
+
+
+.published_date{
+	font-size: 10px;
+    font-family: "Verdana";
+    position: relative;
+    color: #BBB;
+	margin: 5px;
+	text-align: right;
+}
+
+.post_detail{
+	font-size: 14px;
+    font-family: "Verdana";
+    position: relative;
+    color: #EEE;
+	margin: 5px;
+	text-align: justify;
+}
+
+#msg_box_container{
+    position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	left:0;
+	right:0;
+	width:400px;
+    top:10px;
+    z-index: 100;
+    font-size: 11px;
+    font-family: "Arial";
+}
+
+.msg_box{
+    position: relative;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    /*text-shadow: 2px 2px 2px #000;*/
+    font-weight: bold;
+    text-align: center;
+}
+
+.msg_box_user{
+    position: absolute;
+    top:200px;
+    border: 5px solid #CCCCCC;
+    background: #EEE;
+    padding: 10px;
+    color: #333;
+    /*text-shadow: 2px 2px 2px #000;*/
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    z-index: 100;
+    box-shadow: 2px 2px 15px #000;
+}
+
+.msg_box_user span{
+    padding-bottom:10px;
+}
+
+#error{
+	background: #C00000;
+}
+
+#success{
+	background: #29CC70;
+}
+
+#info{
+	background: #1F8DB1;
+}
+
+#warning{
+	background: #FF9900;
+}
